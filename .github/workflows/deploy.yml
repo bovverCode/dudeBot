@@ -15,6 +15,6 @@ jobs:
         password: ${{ secrets.DEPLOY_SERVER_PASSWORD }}
         port: ${{ secrets.DEPLOY_SERVER_PORT }}
         script: |
-        whoami
-        ls -al
+          whoami
+          ls -al
         
